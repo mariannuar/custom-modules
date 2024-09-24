@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function video_popup_theme() {
+  return [
+    'video_popup_block' => [
+      'variables' => [
+        'field_videopopup_heading' => NULL,
+        'field_videopopup_description' => NULL,
+        'field_videopopup_video_url' => NULL,
+      ],
+      'template' => 'video-popup-block',
+    ],
+  ];
+}

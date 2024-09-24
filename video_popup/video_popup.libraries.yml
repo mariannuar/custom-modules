@@ -1,0 +1,9 @@
+video_popup_library:
+  css:
+    theme:
+      css/video-popup.css: {}
+  js:
+    js/video-popup.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

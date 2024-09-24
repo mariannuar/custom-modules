@@ -1,0 +1,17 @@
+<div class="video-popup-block">
+  {% if field_videopopup_heading %}
+    <h2>{{ field_videopopup_heading }}</h2>
+  {% endif %}
+
+  {% if field_videopopup_description %}
+    <p>{{ field_videopopup_description }}</p>
+  {% endif %}
+
+  {% if field_videopopup_video_url %}
+    <div class="video-popup">
+      <a href="{{ field_videopopup_video_url }}" class="video-link" target="_blank">
+        <img src="https://img.youtube.com/vi/{{ field_videopopup_video_url|split('/')[-1] }}/hqdefault.jpg" alt="Video thumbnail">
+      </a>
+    </div>
+  {% endif %}
+</div>

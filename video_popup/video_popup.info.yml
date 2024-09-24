@@ -1,0 +1,7 @@
+name: 'Video Popup'
+type: module
+description: 'A custom module for video popup with fields for video, heading, and description.'
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:block
+  - drupal:config
